@@ -12,4 +12,4 @@ A: Yes, You **need** to own original copy of Minecraft to play Minecraft: Commun
 
 Q: Will you add [*insert block, feature, item, etc. name*]?
 
-A: If you have a suggestion please send it there:
+A: If you have a suggestion please send it [here](https://github.com/Nano-Beta-Studios/Minecraft-Community-Edition/issues/new/choose).
