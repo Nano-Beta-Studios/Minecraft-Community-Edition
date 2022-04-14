@@ -1,21 +1,21 @@
-name: Suggest a Feature
-description: You have an idea for block, item, mob, biome or maybe even an entire dimension? Submit it here!\
+name: Suggestion
+description: You have an idea for block, item, mob, biome or maybe even an entire dimension? Submit it here!
 title: "Feature: <Title>"
 labels: ["Type: feature"]
 body:
 - type: dropdown
   attributes:
-    label: Which component should be improved?
-    options: [Audio, Rendering, Entity, Gameplay, UI/UX, Hammer, Tools, Other]
+    label: What type of feature is it?
+    options: [Item, Block, Mob, Biome, Dimension, Mechanic]
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Describe your feature suggestion in more detail
+    label: Give us some details about your suggestion
     description: Feel free to add pictures or video directly to this description!
     placeholder: |
       Give a clear explanation of what you want us to add. 
-      Please don't give vague suggestions like "Make button look better" or "Add entity that damages the player".
-      How exactly does it work? What are the inputs? What is the expected outcome?
+      Please don't give suggestions like "Pickaxe that breaks chunks" or "Biome that has a lot of diamonds".
+      How exactly does it work? How should item/block be crafted? How to get to the new dimension? etc.
   validations:
     required: true

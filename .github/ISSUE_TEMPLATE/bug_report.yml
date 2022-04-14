@@ -1,0 +1,22 @@
+name: Bug
+description: You've found something that isn't right? A flying boat, flying strider? Report us about it here!
+title: "Bug: <Title>"
+labels: ["Type: bug"]
+body:
+- type: dropdown
+  attributes:
+    label: What type of bug is it?
+    options: [Item, Block, Mob, Biome, Dimension, Mechanic]
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Give us some details about bug
+    description: Feel free to add pictures or video directly to this description!
+    placeholder: |
+      Give a clear explanation of what happens and how to recreate it.
+      Don't just write "strider flies over the ground" or "creeper clipped through wall".
+      Go into specifics: What version of Minecraft: Community Edition were you using?
+      Was there anything unusual before it happened? Are you able to try and recreate it?
+  validations:
+    required: true
